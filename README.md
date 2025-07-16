@@ -32,3 +32,29 @@ An iOS app for learning and reflecting on Sikh scripture, featuring:
 
 - This app uses local JSON files only. No network connection required.
 - Data is simplified for learning and reflection purposes.
+
+## File Setup
+GurmukhiVerse
+├── GurmukhiVerse (Main App Target)
+│   ├── Assets.xcassets
+│   ├── bundledecode.swift
+│   ├── ContentView.swift
+│   ├── FullGranthSahib.swift
+│   ├── FullGranthSahibEnglish.swift
+│   ├── GurmukhiVerseApp.swift
+│   ├── Item.swift
+│   ├── guru_granth_sahib.json
+│   ├── guru_granth_sahib_english.json
+│
+├── GurmukhiWidgetExtension (Widget Target)
+│   ├── Assets.xcassets
+│   ├── NewEntry.swift
+│   ├── NewProvider.swift
+│   ├── NewWidget.swift
+│
+├── Frameworks
+│   ├── WidgetKit
+│   ├── SwiftUI
+│
+├── README.md
+├── .gitignore
